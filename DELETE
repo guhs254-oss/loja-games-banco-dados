@@ -1,0 +1,11 @@
+-- Remover um cliente (somente se não tiver vendas)
+DELETE FROM clientes
+WHERE id = 3;
+
+-- Deletar um item específico de uma venda
+DELETE FROM itens_venda
+WHERE id = 4;
+
+-- Deletar um jogo (somente se não estiver em vendas)
+DELETE FROM jogos
+WHERE id = 4;
